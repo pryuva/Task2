@@ -1,0 +1,25 @@
+<DOCTYPE html>
+<html>
+<head>
+  <title>Temperature Converter</title>
+  <link rel="stylesheet" type="text/css" href="s.css">
+</head>
+<body>
+  <script type="text/javascript" src="fun.js"></script>
+  <h1>Temperature Converter</h1>
+  <div class="container">
+    <div class="input-group">
+      <label for="celsius">Celsius:</label>
+      <input type="number" id="celsius" placeholder="Enter temperature in Celsius">
+    </div>
+    <div class="input-group">
+      <label for="fahrenheit">Fahrenheit:</label>
+      <input type="number" id="fahrenheit" readonly>
+    </div>
+    <button class="btn" onclick="convertTemperature()">Convert</button>
+    <div class="result" id="result"></div>
+  </div>
+
+  
+</body>
+</html>
